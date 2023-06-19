@@ -4,7 +4,7 @@ import { Project as ProjectType } from "models/datoCMS";
 // components
 import Button from "components/Buttons/Button";
 import TechnologyLogo from "components/Icons/TechnologyLogo";
-import CardWithTopImage from "components/Card/CardWithTopImage";
+import CardWithTopImage from "components/Buttons/Card/CardWithTopImage";
 
 interface Props {
   /**
@@ -46,11 +46,10 @@ const Project = ({
           <h3 className="text-xl font-semibold text-primary">{title}</h3>
         </div>
       </header>
-      <div className="flex-1">
+      {/* <div className="flex-1">
         <p className="mt-3 text-base text-gray-600 dark:text-gray-300">{description}</p>
-      </div>
+      </div> */}
       <div className="my-4 flex flex-col justify-center items-center">
-        <h4 className="text-md font-semibold text-primary mb-4">Technologies Used</h4>
         <ul className="grid gap-4 grid-flow-col">
           {technologiesUsed?.map(({ id, logo, name }) => (
             <li
@@ -66,17 +65,21 @@ const Project = ({
         </ul>
       </div>
       {(liveLink || repoLink) && (
-        <footer className="mt-4 flex items-center">
-          <div className="flex justify-center items-center space-x-8 mx-auto">
+        <footer className="mt-4 flex justify-end">
+          <div className="flex justify-end space-x-8 h-full">
+            {/* <div className="flex">
+              <img src="/external-link.svg" alt="source code" />
+              <img src="/github.svg" alt="github" />
+            </div> */}
             {liveLink && (
               <Button
                 as="a"
                 isExternalLink
                 url={liveLink}
-                ariaLabel={`${title} Live Link`}
-                size="lg"
-                text="Live Link"
-                type="primary"
+                ariaLabel={`Live Link`}
+                text=""
+                type="secondary"
+                iconUrl="/external-link.svg"
               />
             )}
             {repoLink && (
@@ -84,10 +87,10 @@ const Project = ({
                 as="a"
                 isExternalLink
                 url={repoLink}
-                ariaLabel={`${title} Code`}
-                size="lg"
-                text="Code"
+                ariaLabel={`Code`}
+                text=""
                 type="secondary"
+                iconUrl="/github.svg"
               />
             )}
           </div>

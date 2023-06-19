@@ -8,7 +8,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      primary: "#239a3b",
+      primary: "#00C7FF",
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
@@ -20,3 +20,5 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
+
+// 239a3b

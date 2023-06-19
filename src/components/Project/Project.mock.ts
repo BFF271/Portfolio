@@ -10,7 +10,7 @@ const mockProjects: Project[] = [
       'Vintage Poker is a poker platform built with the MERN-stack and Socket.io. The "Styled Components"-library was used to build a UI with a custom look & feel. Localized content (DE & EN) is being managed & loaded from the Headless-CMS Contentful.',
     projectType: "personal",
     liveLink: "https://www.vintagepoker.net/",
-    repoLink: "https://github.com/Pobermeier/vintage-poker",
+    repoLink: "https://github.com/tbking27171/Shop",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478217-project_personal_vintagepoker.jpg",
       responsiveImage: {
@@ -41,31 +41,35 @@ const mockProjects: Project[] = [
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840881",
         name: "React",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
       },
       {
         id: "93840896",
         name: "Node.js",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341257-node-dot-js.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
       },
       {
         id: "93840902",
         name: "Webpack",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341263-webpack.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+        },
       },
     ],
   },
@@ -77,7 +81,7 @@ const mockProjects: Project[] = [
       "A social network for developers built with the MERN-stack. Backend-API is set-up with Node.js and Express including authentication using JWT web tokens. The app uses Redux for client-side state management.",
     projectType: "personal",
     liveLink: "https://www.devmeetup.net/",
-    repoLink: "https://github.com/Pobermeier/devmeetup",
+    repoLink: "https://github.com/tbking27171/devmeetup",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478184-project_personal_devmeetup.jpg",
       responsiveImage: {
@@ -108,36 +112,42 @@ const mockProjects: Project[] = [
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840881",
         name: "React",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
       },
       {
         id: "93840893",
         name: "Redux",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-redux.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
       },
       {
         id: "93840896",
         name: "Node.js",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341257-node-dot-js.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
       },
       {
         id: "93840902",
         name: "Webpack",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341263-webpack.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+        },
       },
     ],
   },
@@ -149,7 +159,7 @@ const mockProjects: Project[] = [
       "SimplySticky is a full-CRUD Note-taking App build with React which is utilizing cloud functions to perform any of its backend functionality. Uses Netlify Identity as an external auth provider & Redux for internal state management.",
     projectType: "personal",
     liveLink: "https://www.simplysticky.net/",
-    repoLink: "https://github.com/Pobermeier/simply-sticky",
+    repoLink: "https://github.com/tbking27171/simply-sticky",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478258-simplysticky.png",
       responsiveImage: {
@@ -180,36 +190,42 @@ const mockProjects: Project[] = [
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840881",
         name: "React",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
       },
       {
         id: "93840893",
         name: "Redux",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-redux.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
       },
       {
         id: "93840896",
         name: "Node.js",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341257-node-dot-js.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
       },
       {
         id: "93840902",
         name: "Webpack",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341263-webpack.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+        },
       },
     ],
   },
@@ -221,7 +237,7 @@ const mockProjects: Project[] = [
       'A multiplayer variant of the famous game "Battleship" implemented with Node.js, Express & Socket.io. Notable features are a game lobby to create & join games, in-game chat & 2-player multiplayer.',
     projectType: "personal",
     liveLink: "https://battleship-websockets-game.herokuapp.com/",
-    repoLink: "https://github.com/Pobermeier/battleship-websockets-game",
+    repoLink: "https://github.com/tbking27171/battleship-websockets-game",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478178-project_personal_battleship.jpg",
       responsiveImage: {
@@ -252,20 +268,20 @@ const mockProjects: Project[] = [
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840896",
         name: "Node.js",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341257-node-dot-js.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         },
       },
     ],
@@ -278,7 +294,7 @@ const mockProjects: Project[] = [
       "This is a productivity app created using React Native. Users can create virtual decks of flashcards, build a library of questions and answers for a specific topic and challenge themselves by taking quizzes and documenting their learning progress.",
     projectType: "personal",
     liveLink: "https://snack.expo.io/@git/github.com/Pobermeier/reactnd-mobile-flashcards",
-    repoLink: "https://github.com/Pobermeier/mobile-flashcards",
+    repoLink: "https://github.com/tbking27171/mobile-flashcards",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478203-project_personal_flashcards.jpg",
       responsiveImage: {
@@ -305,18 +321,20 @@ const mockProjects: Project[] = [
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "99869012",
         name: "React Native",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
       },
     ],
   },
@@ -328,7 +346,7 @@ const mockProjects: Project[] = [
       'An implementation of the popular "Would you rather..."-game that uses React for the UI-part and Redux for state management. The "backend" is implemented as an in-client DB + fake API endpoints.',
     projectType: "personal",
     liveLink: "https://would-you-rather-2020.netlify.app/",
-    repoLink: "https://github.com/Pobermeier/would-you-rather",
+    repoLink: "https://github.com/tbking27171/would-you-rather",
     showcaseImage: {
       url: "https://www.datocms-assets.com/60761/1641478226-project_personal_wouldyourather.jpg",
       responsiveImage: {
@@ -359,36 +377,42 @@ const mockProjects: Project[] = [
       {
         id: "93840874",
         name: "CSS",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341246-css3.svg" },
+        logo: { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
       },
       {
         id: "93840880",
         name: "JavaScript (ES6+)",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341255-javascript.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         },
       },
       {
         id: "93840881",
         name: "React",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-react.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
       },
       {
         id: "93840893",
         name: "Redux",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341260-redux.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        },
       },
       {
         id: "93840903",
         name: "Bootstrap",
         logo: {
-          url: "https://www.datocms-assets.com/60761/1642341241-bootstrap.svg",
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
         },
       },
       {
         id: "93840902",
         name: "Webpack",
-        logo: { url: "https://www.datocms-assets.com/60761/1642341263-webpack.svg" },
+        logo: {
+          url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+        },
       },
     ],
   },

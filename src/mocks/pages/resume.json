@@ -50,7 +50,7 @@
   },
   "page": {
     "seo": [
-      { "tag": "title", "content": "Resume | Patrick Obermeier", "attributes": null },
+      { "tag": "title", "content": "     | Tobias Wang", "attributes": null },
       {
         "tag": "meta",
         "content": null,
@@ -66,7 +66,7 @@
         "content": null,
         "attributes": {
           "name": "description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -74,7 +74,7 @@
         "content": null,
         "attributes": {
           "property": "og:description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -82,7 +82,7 @@
         "content": null,
         "attributes": {
           "name": "twitter:description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -126,7 +126,7 @@
         "content": null,
         "attributes": {
           "property": "og:site_name",
-          "content": "Patrick Obermeier | Senior Frontend Developer"
+          "content": "Tobias Wang | Software Engineer"
         }
       },
       {
@@ -152,7 +152,9 @@
       {
         "__typename": "FullscreenPdfViewerRecord",
         "id": "95311249",
-        "pdfFile": { "url": "https://www.datocms-assets.com/60761/1643059325-cv_en-1.pdf" },
+        "pdfFile": {
+          "url": "https://docs.google.com/document/d/1-T2AUgRwcswV0-StLH0q5u2CIVwg1Kfz5GUXKMHU-Ms/edit?usp=sharing"
+        },
         "pdfTitle": "Curriculum Vitae"
       }
     ],

@@ -26,7 +26,7 @@ const mockData: NavbarProps = {
     },
     {
       id: "94031963",
-      url: "https://github.com/Pobermeier",
+      url: "https://github.com/tbking27171",
       name: "GitHub",
       reactIconIdentifier: "github",
       icon: { url: "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" },

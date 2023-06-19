@@ -1,4 +1,4 @@
-# Patrick Obermeier Portfolio Website v3 - Next.js, TypeScript & DatoCMS
+# Tobias Wang Portfolio Website v3 - Next.js, TypeScript & DatoCMS
 
 This is v3 of my personal portfolio website created using Next.js, TypeScript & DatoCMS.
 

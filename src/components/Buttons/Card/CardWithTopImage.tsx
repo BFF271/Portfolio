@@ -1,6 +1,6 @@
 import { Image, ResponsiveImageType } from "react-datocms";
 // components
-import Card from "components/Card/Card";
+import Card from "components/Buttons/Card/Card";
 
 type Props = {
   /**

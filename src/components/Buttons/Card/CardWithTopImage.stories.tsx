@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 // mocks
 import mockImageData from "./CardWithTopImage.mocks";
 // components
-import CardWithTopImage from "components/Card/CardWithTopImage";
+import CardWithTopImage from "components/Buttons/Card/CardWithTopImage";
 import ContentSectionHeading from "components/ContentSection/ContentSectionHeading";
 import ContentSectionParagraph from "components/ContentSection/ContentSectionParagraph";
 

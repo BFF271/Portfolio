@@ -74,6 +74,12 @@ const Button = ({
   if (as === "a" && !isExternalLink) {
     return (
       <Link href={url as string}>
+        {/* {iconUrl == "/external-link.svg" && (
+          <a onClick={onClick} aria-label={ariaLabel}>
+            {buttonContent}
+          </a>
+        )}
+        {iconUrl != "/external-link.svg" && ( */}
         <a className={computedClassName} onClick={onClick} aria-label={ariaLabel}>
           {buttonContent}
         </a>
@@ -90,9 +96,23 @@ const Button = ({
   const propsToRender = as === "a" ? anchorProps : undefined;
 
   return (
-    <Tag {...propsToRender} aria-label={ariaLabel} onClick={onClick} className={computedClassName}>
-      {buttonContent}
-    </Tag>
+    <div>
+      {(ariaLabel == "Live Link" || ariaLabel == "Code") && (
+        <Tag {...propsToRender} aria-label={ariaLabel} onClick={onClick}>
+          {buttonContent}
+        </Tag>
+      )}
+      {ariaLabel != "Live Link" && ariaLabel != "Code" && (
+        <Tag
+          {...propsToRender}
+          aria-label={ariaLabel}
+          onClick={onClick}
+          className={computedClassName}
+        >
+          {buttonContent}
+        </Tag>
+      )}
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 // types
 import { BlogPost } from "models/datoCMS";
 // components
-import CardWithTopImage from "components/Card/CardWithTopImage";
+import CardWithTopImage from "components/Buttons/Card/CardWithTopImage";
 import BlogPostMetaData from "components/Blog/BlogPostMetaData";
 
 type Props = {

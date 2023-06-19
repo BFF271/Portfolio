@@ -1,7 +1,7 @@
 const mockData = {
   heading:
     'Creating <span class="text-primary">fresh & fast web apps and sites</span> with passion!',
-  subHeading: "Senior Frontend Developer & Online-Marketing Expert from Vienna, Austria ",
+  subHeading: "Software engineer from Kuopio, Finland ",
   backgroundImage: {
     responsiveImage: {
       srcSet:
@@ -13,8 +13,8 @@ const mockData = {
       width: 1662,
       height: 1054,
       aspectRatio: 1.5768500948766604,
-      alt: "Patrick Obermeier",
-      title: "Patrick Obermeier",
+      alt: "Tobias Wang",
+      title: "Tobias Wang",
       base64:
         "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLCgoLDhgVDhUVDhcVFhESIx0ZGBYfIhUaHysjGikoHSEWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLDg0OFxAQHDsoIhw7NS8vLzs7LzsvLzUvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIAA8AGAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAYF/8QAHRAAAQQDAQEAAAAAAAAAAAAAAQACAyEEBRJBEf/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwD/xAAXEQEBAQEAAAAAAAAAAAAAAAARAAIB/9oADAMBAAIRAxEAPwCQ1X0eJ3OmMcRpMYWG1ppN5OvZJHaxUelFt2HcxbyaQtyTURMeSAEIkjq//9k=",
     },

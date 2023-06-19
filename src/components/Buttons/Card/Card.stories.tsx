@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 // components
 import Button from "components/Buttons/Button";
-import Card from "components/Card/Card";
+import Card from "components/Buttons/Card/Card";
 import ContentSectionHeading from "components/ContentSection/ContentSectionHeading";
 import ContentSectionParagraph from "components/ContentSection/ContentSectionParagraph";
 

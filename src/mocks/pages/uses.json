@@ -50,7 +50,7 @@
   },
   "page": {
     "seo": [
-      { "tag": "title", "content": "/uses | Patrick Obermeier", "attributes": null },
+      { "tag": "title", "content": "/uses | Tobias Wang", "attributes": null },
       {
         "tag": "meta",
         "content": null,
@@ -66,7 +66,7 @@
         "content": null,
         "attributes": {
           "name": "description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -74,7 +74,7 @@
         "content": null,
         "attributes": {
           "property": "og:description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -82,7 +82,7 @@
         "content": null,
         "attributes": {
           "name": "twitter:description",
-          "content": "Patrick Obermeier is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
+          "content": "Tobias Wang is a Senior React Developer from Vienna, Austria. Creating web apps and websites using latest technologies like React & the MERN-Stack with passion!"
         }
       },
       {
@@ -126,7 +126,7 @@
         "content": null,
         "attributes": {
           "property": "og:site_name",
-          "content": "Patrick Obermeier | Senior Frontend Developer"
+          "content": "Tobias Wang | Software Engineer"
         }
       },
       {
@@ -172,7 +172,7 @@
         },
         {
           "id": "94031963",
-          "url": "https://github.com/Pobermeier",
+          "url": "https://github.com/tbking27171",
           "name": "GitHub",
           "reactIconIdentifier": "github",
           "icon": { "url": "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" }
@@ -210,11 +210,11 @@
         "__typename": "StaticContentBlockRecord",
         "id": "94033719",
         "title": "/uses",
-        "text": "A list of technologies that were used to build this site & tech that I personally use. Check out [this site](https://uses.tech/) created by [Wes Bos](https://wesbos.com/) for a comprehensive list of /uses pages.\n\n**The Hardware I Use:**\n\n* Matebook X Pro (2019)\n\t* Intel Core i7-8550U\n\t* 16 GB RAM\n\t* 512GB SSD\n\t* NVIDIA GeForce MX150 mit 2GB GDDR5\n\t* Windows 10 Home\n* Sony WH-1000XM4\n* Logitech MX Keys\n* Logitech MX Master 3\n* Samsung Galaxy S20 FE\n* Samsung Galaxy Buds+\n\n**The Technologies & Tools I used to build this site:**\n\n*   [Next.js](https://nextjs.org/)\n*   [React](https://reactjs.org/)\n*   [Tailwind CSS](https://tailwindcss.com/)\n*   [TypeScript](https://www.typescriptlang.org/)\n*   [GraphQL Request](https://github.com/prisma-labs/graphql-request)\n*   [DatoCMS](https://www.datocms.com/)\n\nThe code for this website is available [here](https://github.com/Pobermeier/pobermeier-portfolio-v3). This site is deployed and hosted using [Netlify.](https://www.netlify.com/)\n\n**And, I also really 💓 to use all of this stuff:**\n\n*   **Editor:** [Visual Studio Code](https://code.visualstudio.com/) with a whole bunch of [extensions](https://gist.github.com/Pobermeier/8247fed2ab7e7ece869f41f64f2dfbd3)\n*   **OS:** Windows 10 + [WSL2](https://github.com/microsoft/WSL2-Linux-Kernel)\n*   **CLI:** git bash & [new Windows Terminal (Preview)](https://github.com/microsoft/terminal)\n*   [React](https://reactjs.org/)\n*   [Redux](https://redux.js.org/)\n*   [Next.js](https://nextjs.org/)\n*   [Gatsby](https://www.gatsbyjs.org/)\n*   [Bootstrap](https://getbootstrap.com/)\n*   [git](https://git-scm.com/) + [GitHub](https://www.github.com/)\n*   [C# & dot.net](https://dotnet.microsoft.com/)\n*   [Vercel](https://vercel.com)\n*   [Digital Ocean](https://www.digitalocean.com/)\n*   [Docker](https://www.docker.com/)\n*   [Contentful](https://www.contentful.com/)\n*   [Figma](https://www.figma.com/)\n*   [Unity](https://unity.com/)"
+        "text": "A list of technologies that were used to build this site & tech that I personally use. Check out [this site](https://uses.tech/) created by [Wes Bos](https://wesbos.com/) for a comprehensive list of /uses pages.\n\n**The Hardware I Use:**\n\n* Matebook X Pro (2019)\n\t* Intel Core i7-8550U\n\t* 16 GB RAM\n\t* 512GB SSD\n\t* NVIDIA GeForce MX150 mit 2GB GDDR5\n\t* Windows 10 Home\n* Sony WH-1000XM4\n* Logitech MX Keys\n* Logitech MX Master 3\n* Samsung Galaxy S20 FE\n* Samsung Galaxy Buds+\n\n**The Technologies & Tools I used to build this site:**\n\n*   [Next.js](https://nextjs.org/)\n*   [React](https://reactjs.org/)\n*   [Tailwind CSS](https://tailwindcss.com/)\n*   [TypeScript](https://www.typescriptlang.org/)\n*   [GraphQL Request](https://github.com/prisma-labs/graphql-request)\n*   [DatoCMS](https://www.datocms.com/)\n\nThe code for this website is available [here](https://github.com/tbking27171/pobermeier-portfolio-v3). This site is deployed and hosted using [Netlify.](https://www.netlify.com/)\n\n**And, I also really 💓 to use all of this stuff:**\n\n*   **Editor:** [Visual Studio Code](https://code.visualstudio.com/) with a whole bunch of [extensions](https://gist.github.com/Pobermeier/8247fed2ab7e7ece869f41f64f2dfbd3)\n*   **OS:** Windows 10 + [WSL2](https://github.com/microsoft/WSL2-Linux-Kernel)\n*   **CLI:** git bash & [new Windows Terminal (Preview)](https://github.com/microsoft/terminal)\n*   [React](https://reactjs.org/)\n*   [Redux](https://redux.js.org/)\n*   [Next.js](https://nextjs.org/)\n*   [Gatsby](https://www.gatsbyjs.org/)\n*   [Bootstrap](https://getbootstrap.com/)\n*   [git](https://git-scm.com/) + [GitHub](https://www.github.com/)\n*   [C# & dot.net](https://dotnet.microsoft.com/)\n*   [Vercel](https://vercel.com)\n*   [Digital Ocean](https://www.digitalocean.com/)\n*   [Docker](https://www.docker.com/)\n*   [Contentful](https://www.contentful.com/)\n*   [Figma](https://www.figma.com/)\n*   [Unity](https://unity.com/)"
       }
     ],
     "footer": {
-      "copyrightText": "Patrick Obermeier. All rights reserved.",
+      "copyrightText": "Tobias Wang. All rights reserved.",
       "navigationLinks": [
         { "id": "94064251", "title": "/uses", "isExternalLink": false, "url": "/uses" },
         { "id": "99902435", "title": "Blog", "isExternalLink": false, "url": "/blog" },
@@ -250,7 +250,7 @@
         },
         {
           "id": "94031963",
-          "url": "https://github.com/Pobermeier",
+          "url": "https://github.com/tbking27171",
           "name": "GitHub",
           "reactIconIdentifier": "github",
           "icon": { "url": "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" }

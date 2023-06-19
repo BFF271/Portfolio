@@ -2,7 +2,7 @@
 import { FooterProps } from "./Footer";
 
 const mockData: FooterProps = {
-  copyrightText: "Patrick Obermeier. All rights reserved.",
+  copyrightText: "Tobias Wang. All rights reserved.",
   navigationLinks: [
     { id: "94064251", title: "/uses", isExternalLink: false, url: "/uses" },
     { id: "99902435", title: "Blog", isExternalLink: false, url: "/blog" },
@@ -38,7 +38,7 @@ const mockData: FooterProps = {
     },
     {
       id: "94031963",
-      url: "https://github.com/Pobermeier",
+      url: "https://github.com/tbking27171",
       name: "GitHub",
       reactIconIdentifier: "github",
       icon: { url: "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" },

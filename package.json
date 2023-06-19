@@ -1,7 +1,7 @@
 {
   "name": "pobermeier-portfolio-v3",
   "version": "1.0.0",
-  "description": "Patrick Obermeier's Personal Portfolio Website build with Next.js, TailwindCSS, GraphQL & Dato CMS.",
+  "description": "Tobias Wang's Personal Portfolio Website build with Next.js, TailwindCSS, GraphQL & Dato CMS.",
   "keywords": [
     "react",
     "nextjs",
@@ -14,7 +14,7 @@
     "tailwind",
     "tailwind-css"
   ],
-  "author": "Patrick Obermeier",
+  "author": "Tobias Wang",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -91,12 +91,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pobermeier/pobermeier-portfolio-v3.git"
+    "url": "git+https://github.com/tbking27171/pobermeier-portfolio-v3.git"
   },
   "bugs": {
-    "url": "https://github.com/Pobermeier/pobermeier-portfolio-v3.git/issues"
+    "url": "https://github.com/tbking27171/pobermeier-portfolio-v3.git/issues"
   },
-  "homepage": "https://github.com/Pobermeier/pobermeier-portfolio-v3.git#readme",
+  "homepage": "https://github.com/tbking27171/pobermeier-portfolio-v3.git#readme",
   "resolutions": {
     "webpack": "^5"
   }

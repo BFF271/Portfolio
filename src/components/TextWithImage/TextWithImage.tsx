@@ -1,5 +1,5 @@
-import { Image } from "react-datocms";
 import ReactMarkdown from "react-markdown";
+import { Image } from "react-datocms";
 // types
 import { ResponsiveImage } from "models/datoCMS";
 // components
