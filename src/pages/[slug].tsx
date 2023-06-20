@@ -51,7 +51,8 @@ const Page = ({ data, isPreview, deactivatePreviewMode, posts }: Props) => {
     variables: { slug: data.page.slug },
     initialData: data,
     preview: true,
-    token: process.env.NEXT_PUBLIC_DATOCMS_API_TOKEN as string,
+    token: "",
+    // process.env.NEXT_PUBLIC_DATOCMS_API_TOKEN as string,
   });
 
   const { data: cmsPosts } = useQuerySubscription({
@@ -60,7 +61,8 @@ const Page = ({ data, isPreview, deactivatePreviewMode, posts }: Props) => {
     query: GET_ALL_BLOG_POSTS_QUERY,
     initialData: posts,
     preview: true,
-    token: process.env.NEXT_PUBLIC_DATOCMS_API_TOKEN as string,
+    token: "",
+    //  process.env.NEXT_PUBLIC_DATOCMS_API_TOKEN as string,
   });
 
   const {
