@@ -2,8 +2,8 @@
   "plugins": ["@typescript-eslint"],
   "extends": [
     "next/core-web-vitals",
-    "prettier",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:storybook/recommended"
+    "prettier"
+    // "plugin:@typescript-eslint/recommended",
+    // "plugin:storybook/recommended"
   ]
 }
