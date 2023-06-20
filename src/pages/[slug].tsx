@@ -16,7 +16,6 @@ const Layout = dynamic(() => import("components/Layout/Layout"));
 // hooks
 import useReplaceHrefInAllMatchedLinks from "hooks/useReplaceHrefInLink";
 // graphql
-import { request } from "clients/datocms";
 import { GET_PAGE_DATA_QUERY } from "graphql/queries/getPageData";
 import { GET_ALL_PAGE_SLUGS_QUERY } from "graphql/queries/getAllPageSlugs";
 import { GET_ALL_BLOG_POSTS_QUERY } from "graphql/queries/getAllBlogPosts";
@@ -136,18 +135,6 @@ export async function getStaticProps(ctx: GetStaticPropsContext) {
       },
     };
   }
-
-  try {
-    const data = await request(GET_PAGE_DATA_QUERY, { slug: currentSlug }, isDev);
-
-    const blogPostsData = await request(GET_ALL_BLOG_POSTS_QUERY, null, isDev);
-
-    return {
-      props: { data, posts: blogPostsData },
-    };
-  } catch (error) {
-    console.log(error);
-  }
 }
 
 export async function getStaticPaths() {
@@ -164,19 +151,6 @@ export async function getStaticPaths() {
       fallback: false,
       paths: JSON.parse(mockPaths),
     };
-  }
-
-  try {
-    const cmsData = await request(GET_ALL_PAGE_SLUGS_QUERY, null, isDev);
-
-    const paths = cmsData.allPages.map((page: PageData) => ({ params: { slug: page.slug } }));
-
-    return {
-      fallback: false,
-      paths,
-    };
-  } catch (error) {
-    console.log(error);
   }
 }
 
